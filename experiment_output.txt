@@ -1,0 +1,16 @@
+
+--- Test: Server=st_server.py, ClientMode=st, Count=50 ---
+Total time for 50 requests (st): 5.0637s
+
+--- Test: Server=mt_server.py, ClientMode=st, Count=50 ---
+Total time for 50 requests (st): 5.1061s
+
+--- Test: Server=mt_server.py, ClientMode=mt, Count=50 ---
+Total time for 50 requests (mt): 0.1198s
+
+========================================
+RESUMO DO EXPERIMENTO
+========================================
+ST Server / ST Client: Total time for 50 requests (st): 5.0637s
+MT Server / ST Client: Total time for 50 requests (st): 5.1061s
+MT Server / MT Client: Total time for 50 requests (mt): 0.1198s
